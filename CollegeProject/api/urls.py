@@ -1,8 +1,8 @@
-from django.urls import path, include
-from rest_framework.routers import DefaultRouter
-from .views import *
+# from django.urls import path, include
+# from rest_framework.routers import DefaultRouter
+# from .views import *
+# from api.views import UserViewSet
+# router = DefaultRouter()
 
-router = DefaultRouter()
-
-router.register('college', UserModelViewSet)
-urlpatterns = router.urls
+# router.register('college', UserViewSet)
+# urlpatterns = router.urls
